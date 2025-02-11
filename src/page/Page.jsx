@@ -12,22 +12,22 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "Ні",
+      "Ти впевнений(на)?",
+      "А якщо я попрошу ввічливо =)",
+      "*ввічливо* Будь ласка =))))",
+      "А якщо з мене кава???",
+      "Добре подумай",
+      "Я СКАЗАВ ДОБРЕ ПОДУМАЙ",
+      "Ти не можеш....",
+      "Нащо я тоді писав це все",
+      "Лан не то не",
+      "Ти шо гоніш яке не",
+      "Довго ще будеш клацать",
+      "Пальци поодрізаю",
+      "Лан давай закінчуй і жми вже да",
+      "Я сказав жми да, куда ти клацаєш",
+      "Не і всьо",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -42,7 +42,7 @@ export default function Page() {
             src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
             alt="Love bear"
           />
-          <h1 className={styles.h1}>Yaaayy, wait for your message❤️🥰</h1>
+          <h1 className={styles.h1}>Найс! перемога❤️🥰</h1>
         </>
       ) : (
         <>
@@ -51,7 +51,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             alt="Cute bear"
           />
-          <h1 className={styles.h1}>Will you be my vanentine?💖</h1>
+          <h1 className={styles.h1}>Будеш моєю валентинкою?💖</h1>
           <div className="flex items-center space-x-4">
             <button
               className={`${styles.button} ${styles.buttonYes}`}
